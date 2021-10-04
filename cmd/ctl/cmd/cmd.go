@@ -47,7 +47,7 @@ func NewCertManagerCtlCommand(ctx context.Context, in io.Reader, out, err io.Wri
 		Use:   "cert-manager",
 		Short: "cert-manager CLI tool to manage and configure cert-manager resources",
 		Long: `
-kubectl cert-manager is a CLI tool manage and configure cert-manager resources for Kubernetes`,
+kubectl cert-manager is a CLI tool to manage and configure cert-manager resources for Kubernetes`,
 	}
 	cmds.SetUsageTemplate(usageTemplate)
 
